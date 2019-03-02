@@ -133,10 +133,63 @@ li:last-child {
 
 }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 25vh;
-  width: 50%;
+.flex-container {
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
 }
+
+.column {
+
+  padding: 20px;
+  margin-bottom: 20px;
+  box-sizing: border-box;
+  flex-basis: 50%;
+
+}
+
+.column:nth-child(1) {
+
+  margin-left: 20px;
+  align-content: flex-end;
+
+
+}
+
+.column:nth-child(2) {
+
+  margin-right: 20px;
+  align-content: flex-start;
+
+}
+
+#description {
+
+  font-size: 2em;
+  text-align: right;
+  font-family: "Times New Roman", Times, serif;
+  border: solid 3px;
+  border-left: none;
+  border-bottom: none;
+  padding: 15px;
+  width: 500px;
+  margin-top: 75vh;
+
+}
+
+#issue5 {
+
+  width: 500px;
+  margin-top: 25vh;
+
+}
+
+
+@media screen and (max-width: 700px) {
+
+  #description, #issue5 {
+    flex-direction: column;
+
+  }
