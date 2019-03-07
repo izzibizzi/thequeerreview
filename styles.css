@@ -162,7 +162,17 @@ li:last-child {
 
 }
 
-.flex-container {
+.firsttext {
+
+  text-align: center;
+  vertical-align: middle;
+  margin: 100px;
+  border: 1px solid;
+  padding: 20px;
+
+}
+
+.section {
 
   display: flex;
   flex-direction: row;
@@ -205,7 +215,7 @@ li:last-child {
 .imgcarousel {
 
   width: 500px;
-  margin-top: 25vh;
+  margin-top: 10px;
 
 }
 
@@ -219,8 +229,66 @@ li:last-child {
   border-bottom: none;
   padding: 15px;
   width: 500px;
-  margin-top: 75vh;
+  margin-top: 50vh;
 
+}
+
+footer {
+
+  display: block;
+  left: 0;
+  margin-top: 100px;
+  width: 100%;
+  background-color: bisque;
+  margin-bottom: 0;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+  font-size: 10px;
+
+}
+
+.footercolumn {
+
+  float: left;
+  width: 50%;
+
+}
+
+footer p {
+
+  text-align: left;
+
+}
+
+footer a {
+
+  color: black;
+
+}
+
+footer a:hover {
+
+  color: white;
+
+}
+
+footer img {
+
+  width: 50px;
+  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+
+}
+
+footer:after {
+
+  content: "";
+  display: table;
+  clear: both;
+  
 }
 
 @media screen and (max-width: 700px) {
