@@ -5,6 +5,12 @@ header {
 
 }
 
+a:hover {
+
+  color: black;
+
+}
+
 .toplinks {
 
   color: black;
@@ -18,8 +24,186 @@ header {
 }
 
 
+
+
+
+
+
+
+
 body {
 
   color: black;
+
+}
+
+
+
+
+
+
+
+
+ul {
+
+  border-color: black;
+  background-color: bisque;
+
+}
+
+nav li {
+
+  border-right-color: black;
+
+}
+
+li a {
+
+  color: black;
+
+}
+
+li a:hover {
+
+  background-color: white;
+
+}
+
+
+
+
+
+
+
+
+.infobox {
+
+  border-color: black;
+  outline-color: bisque;
+  background: white;
+
+}
+
+button {
+
+  background-color: bisque;
+  color: black;
+
+}
+
+button a {
+
+  color: black;
+
+}
+
+
+
+
+
+
+
+
+.modal {
+
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+
+}
+
+.modal-content {
+
+  background-color: #fefefe;
+  border: #888;
+
+}
+
+.close {
+
+  color: #aaa;
+
+}
+
+.close:hover, .close:focus {
+
+  color: black;
+
+}
+
+.carousel-control-prev {
+
+  color: black;
+
+}
+
+.carousel-control-next {
+
+  color: black;
+
+}
+
+.carousel {
+
+  border-color: black;
+  outline-color: bisque;
+  background: white;
+
+}
+
+
+
+
+
+
+.books {
+
+  border-color: black;
+  outline-color: bisque;
+
+}
+
+
+
+
+.overlay {
+
+  background-color: white;
+
+}
+
+.text a {
+
+  color: black;
+
+}
+
+.text {
+
+  color: black;
+  
+}
+
+
+
+
+
+
+
+
+footer {
+
+  background-color: bisque;
+
+}
+
+footer a {
+
+  color: black;
+
+}
+
+footer a:hover {
+
+  color: white;
 
 }

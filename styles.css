@@ -11,7 +11,7 @@ html, body {
 
 header {
 
-  width:100%;
+  width: 100%;
   height: 7vh;
 
   margin: -5px 0 0 0;
@@ -25,7 +25,6 @@ header {
 
 a:hover {
 
-  color: black;
   text-decoration: none;
 
 }
@@ -103,6 +102,7 @@ body {
   padding: 20px;
   margin-top: -40px;
   font-size: 20px;
+
 }
 
 
@@ -115,15 +115,15 @@ ul {
   text-align: center;
   padding: 5px;
   overflow: hidden;
-  border: 2px solid black;
-  background-color: bisque;
+  border: 2px solid;
+  margin-bottom: 0;
 
 }
 
 nav li {
 
   display: inline-block;
-  border-right: 1px solid black;
+  border-right: 1px solid;
   padding-right: 20px;
   padding-left: 20px;
 
@@ -133,7 +133,6 @@ li a {
 
   display: inline-block;
   padding: 8px;
-  color: black;
   text-decoration: none;
   font-size: 30px;
 
@@ -141,7 +140,6 @@ li a {
 
 li a:hover {
 
-  background-color: white;
   border-radius: 10px;
 
 }
@@ -182,6 +180,18 @@ li:last-child {
 
 }
 
+.background {
+
+  background-image: url("https://i.imgur.com/N3dzW4e.jpg");
+  width: 100%;
+  height: 125vh;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+
 
 
 
@@ -189,38 +199,37 @@ li:last-child {
 
 .infobox {
 
-  border: 1px solid black;
-  outline: 15px solid bisque;
-  padding: 20px;
-  padding-bottom: 80px;
+  border: 1px solid;
+  outline: 15px solid;
+  padding: 15px;
+  padding-bottom: 70px;
   margin-left: 10vw;
-  margin-right: 5vw;
-  margin-top: 25vh;
+  margin-right: 0;
+  margin-top: 12vh;
 
 }
 
 .description h1 {
 
-  font-size: 24px;
+  font-size: 20px;
 
 }
 
 button {
 
-  background-color: bisque;
   border: none;
-  color: black;
   padding: 5px 20px;
   margin-top: 20px;
   margin-left: 5px;
   text-align: center;
   text-decoration: none;
   float: left;
-  font-size: 10px;
+  font-size: 14px;
   border-radius: 5px;
-  width: 70px;
+  width: 85px;
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
+  box-shadow: 1px 1px;
 
 }
 
@@ -230,10 +239,15 @@ button:hover {
 
 }
 
+button:active {
+
+  transform: translateY(8px);
+
+}
+
 button a {
 
   display: block;
-  color: black;
   text-decoration: none;
 
 }
@@ -244,39 +258,40 @@ button a {
 
 
 .modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
+
+  display: none;
+  position: fixed;
+  z-index: 1;
   left: 0;
   top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+
 }
 
-/* Modal Content/Box */
 .modal-content {
-  background-color: #fefefe;
-  margin: 15% auto; /* 15% from the top and centered */
+
+  margin: 2% auto;
   padding: 20px;
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
+  border: 1px solid;
+  width: 80%;
+
 }
 
 .close {
-  color: #aaa;
+
   float: right;
   font-size: 28px;
   font-weight: bold;
+
 }
 
-.close:hover,
-.close:focus {
-  color: black;
+.close:hover, .close:focus {
+
   text-decoration: none;
   cursor: pointer;
+
 }
 
 
@@ -286,7 +301,6 @@ button a {
 
 .carousel-control-prev {
 
-  color: black;
   top: auto;
   width: 50%;
   bottom: 15px;
@@ -295,7 +309,6 @@ button a {
 
 .carousel-control-next {
 
-  color: black;
   top: auto;
   width: 50%;
   bottom: 15px;
@@ -304,13 +317,13 @@ button a {
 
 .carousel {
 
-  max-width: 350px;
+  max-width: 450px;
   float: right;
-  margin-right: 15vw;
-  border: 10px double black;
-  outline: 5px dotted bisque;
+  margin-right: 7vw;
+  border: 10px double;
+  outline: 5px solid;
   padding: 10px;
-  margin-top: 30px;
+  margin-top: 15vh;
 
 }
 
@@ -325,13 +338,129 @@ button a {
 
 
 
+
+
+.books {
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 10px double;
+  outline: 5px solid;
+  width: 100%;
+
+}
+
+.books p {
+
+  font-size: 80px;
+  margin-bottom: 0;
+  text-shadow: 2px 2px bisque;
+
+}
+
+
+
+
+
+.row2 {
+
+  display: flex;
+  margin-left: 3vw;
+  margin-right: 3vw;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 50px;
+
+}
+
+.column2 {
+
+  float: left;
+  width: 20%;
+  flex: 20%;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.column2 img {
+
+  width: 200px;
+  height: 305px;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+.container {
+
+  position: relative;
+  width: 100%;
+
+}
+
+.overlay {
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30%;
+  opacity: 0;
+  transition: .5s ease;
+  margin-right: 5px;
+  border-radius: 2px;
+
+}
+
+.text a {
+
+  text-decoration: none;
+
+}
+
+.container:hover .overlay {
+
+  opacity: 0.9;
+
+}
+
+.text:hover .overlay {
+
+  opacity: 1;
+
+}
+
+.text {
+
+  opacity: 1;
+  font-size: 14px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+
+}
+
+.text:hover {
+
+  text-shadow: 2px 2px bisque;
+
+}
+
+
+
+
 footer {
 
   display: block;
   left: 0;
   margin-top: 100px;
   width: 100%;
-  background-color: bisque;
   margin-bottom: 0;
   padding-top: 20px;
   padding-bottom: 10px;
@@ -351,18 +480,6 @@ footer {
 footer p {
 
   text-align: left;
-
-}
-
-footer a {
-
-  color: black;
-
-}
-
-footer a:hover {
-
-  color: white;
 
 }
 
