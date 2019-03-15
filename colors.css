@@ -79,7 +79,6 @@ li a:hover {
 .infobox {
 
   border-color: black;
-  outline-color: bisque;
   background: white;
 
 }
@@ -180,7 +179,7 @@ button a {
 .text {
 
   color: black;
-  
+
 }
 
 
