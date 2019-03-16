@@ -220,7 +220,7 @@ li:last-child {
 
 }
 
-button {
+.infobox button {
 
   border: none;
   padding: 5px 20px;
@@ -235,22 +235,23 @@ button {
   -webkit-transition-duration: 0.4s; /* Safari */
   transition-duration: 0.4s;
   box-shadow: 1px 1px;
+  cursor: pointer;
 
 }
 
-button:hover {
+.infobox button:hover {
 
   opacity: 0.6;
 
 }
 
-button:active {
+.infobox button:active {
 
   transform: translateY(8px);
 
 }
 
-button a {
+.infobox button a {
 
   display: block;
   text-decoration: none;
@@ -369,6 +370,9 @@ button a {
 
 
 
+
+
+
 .row2 {
 
   display: flex;
@@ -388,6 +392,7 @@ button a {
   padding: 10px;
   margin-left: auto;
   margin-right: auto;
+  display: none;
 
 }
 
@@ -457,6 +462,67 @@ button a {
   text-shadow: 2px 2px bisque;
 
 }
+
+
+
+
+
+
+
+
+
+
+.show {
+
+  display: block;
+
+}
+
+#myBtnContainer {
+
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+
+}
+
+.btn {
+
+  border: none;
+  padding: 5px 20px;
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  border-radius: 5px;
+  width: 100px;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  box-shadow: 1px 1px;
+
+}
+
+.btn:hover {
+
+  opacity: 0.6;
+
+}
+
+.btn:active {
+
+  transform: translateY(8px);
+
+}
+
+
+
+
+
+
+
 
 
 

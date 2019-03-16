@@ -83,14 +83,14 @@ li a:hover {
 
 }
 
-button {
+.infobox button {
 
   background-color: bisque;
   color: black;
 
 }
 
-button a {
+.infobox button a {
 
   color: black;
 
@@ -181,6 +181,22 @@ button a {
   color: black;
 
 }
+
+
+
+
+
+
+
+.btn {
+
+  background-color: bisque;
+  color: black;
+
+}
+
+
+
 
 
 
