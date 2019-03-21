@@ -100,6 +100,12 @@ body {
 
 }
 
+#headersmall {
+
+  display: none;
+
+}
+
 #subtitle {
 
   text-align: center;
@@ -463,6 +469,12 @@ li:last-child {
 
 }
 
+.noimage {
+
+  display: none;
+
+}
+
 
 
 
@@ -577,7 +589,158 @@ footer:after {
 
 @media screen and (max-width: 700px) {
 
-  #description {
-    flex-direction: column;
+  #facebook {
+
+    width: 35px;
+    height: 35px;
+    display: inline-block;
 
   }
+
+  #twitter {
+
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+
+  }
+
+  #instagram {
+
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+
+  }
+
+  .toplinks img {
+
+    border-radius: 10px;
+
+  }
+
+  #header {
+
+    display: none;
+
+  }
+
+  #headersmall {
+
+    width: 100%;
+    height: auto;
+    padding: 0px;
+    margin-top:0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+  }
+
+  #subtitle {
+
+    font-size: 15px;
+
+  }
+
+  .background {
+
+    flex-direction: column;
+    height: 160vh;
+    background-position: top left;
+
+  }
+
+  .column {
+
+    width: 100%;
+
+  }
+
+.infobox {
+
+  width: 85vw;
+
+}
+
+.description h1 {
+
+  font-size: 18px;
+
+}
+
+.infobox button {
+
+  font-size: 12px;
+  padding: 5px 15px;
+  width: 70px;
+
+}
+
+  li a {
+
+    font-size: 20px;
+
+  }
+
+  .carousel {
+
+    margin-left: 9%;
+    margin-right: 0;
+    max-width: 85vw;
+    float: none;
+
+  }
+
+  .books p {
+
+    font-size: 50px;
+
+  }
+
+  .row2 {
+
+    margin-left: 1vw;
+    margin-right: 1vw;
+
+  }
+
+  .column2 img {
+
+    width: 75px;
+    height: 110px;
+
+  }
+
+  .column2 {
+
+    padding: 5px;
+    margin-left: -9px;
+
+  }
+
+  .overlay {
+
+    margin-right: -2px;
+    border-radius: 2px;
+    height: 100%;
+
+  }
+
+  .text {
+
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+
+  }
+
+  .btn {
+
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 70px;
+
+  }
+
+}
