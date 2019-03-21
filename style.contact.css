@@ -572,7 +572,30 @@ footer:after {
 
 }
 
+.googleform{
+  margin-top: 100px;
+  margin-bottom; 50px;
+  margin-left: 200px;
+  margin-right:200px;
+}
 
+
+.contactlist {
+  text-align: center;
+  font-family: "Times New Roman", Times, serif;
+  border: 1px solid;
+  outline: 15px solid bisque;
+  padding: 15px;
+  padding-bottom: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: 10vw;
+  margin-right: 0;
+  margin-top: 12vh;
+  box-shadow: 20px 20px 10px rgba(0, 0, 0, 0.8);
+  box-sizing: content-box;
+  width: 40%;
+}
 
 
 @media screen and (max-width: 700px) {
@@ -581,7 +604,3 @@ footer:after {
     flex-direction: column;
 
   }
-
-iframe {
-  margin: auto;
-}
