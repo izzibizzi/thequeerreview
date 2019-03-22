@@ -587,7 +587,14 @@ footer:after {
 
 
 
-@media screen and (max-width: 700px) {
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+
 
   #facebook {
 
@@ -619,29 +626,35 @@ footer:after {
 
   }
 
+  #subtitle {
+
+    font-size: 1em;
+
+  }
+
   #header {
 
     display: none;
 
-  }
+    }
 
   #headersmall {
 
     width: 100%;
     height: auto;
-    padding: 0px;
+    padding-left: 10vw;
+    padding-right: 10vw;
     margin-top:0px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: auto;
     display: block;
 
-  }
+    }
 
-  #subtitle {
+    li a {
 
-    font-size: 15px;
+      font-size: 1.8em;
 
-  }
+    }
 
   .background {
 
@@ -657,38 +670,157 @@ footer:after {
 
   }
 
-.infobox {
+  .infobox {
 
   width: 85vw;
+  max-width: 600px;
+  margin-right: 20vw;
 
-}
+  }
 
-.description h1 {
+  .description h1 {
 
-  font-size: 18px;
+  font-size: 1em;
 
-}
+  }
 
-.infobox button {
+  .infobox button {
 
-  font-size: 12px;
-  padding: 5px 15px;
-  width: 70px;
-
-}
-
-  li a {
-
-    font-size: 20px;
+  font-size: 0.7em;
+  padding: 0.5em 0.7em;
+  width: 6em;
 
   }
 
   .carousel {
 
-    margin-left: 9%;
-    margin-right: 0;
+    margin-left: 20vw;
+    max-width: 400px;
+    max-height: 100vh;
+
+  }
+
+  .imgcarousel {
+
+    object-fit: contain;
     max-width: 85vw;
+    max-height: 90vh;
+    margin: auto;
+
+  }
+
+  .books p {
+
+    font-size: 70px;
+
+  }
+
+  .row2 {
+
+    margin-left: 5vw;
+    margin-right: 5vw;
+
+  }
+
+  .column2 img {
+
+    width: 100px;
+    height: 150px;
+
+  }
+
+  .column2 {
+
+    padding: 5px;
+    margin-left: -9px;
+
+  }
+
+  .overlay {
+
+    margin-right: -2px;
+    border-radius: 2px;
+    height: 100%;
+
+  }
+
+  .text {
+
+    font-size: 10px;
+    top: 50%;
+    left: 50%;
+
+  }
+
+  .btn {
+
+    padding: 5px 10px;
+    font-size: 15px;
+    width: 70px;
+
+  }
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 800px) {
+
+#header {
+
+  display: none;
+
+  }
+
+#headersmall {
+
+  width: 100%;
+  height: auto;
+  padding: 0px;
+  margin-top:0px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+
+  }
+
+  li a {
+
+    font-size: 1.2em;
+
+  }
+
+  .infobox {
+
+  width: 85vw;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  float: none;
+
+  }
+
+  .carousel {
+
+    margin-left: auto;
+    margin-right: auto;
     float: none;
+    text-align: center;
+    max-width: 400px;
+    max-height: 100vh;
+
+  }
+
+  .imgcarousel {
+
+    object-fit: contain;
+    max-width: 85vw;
+    max-height: 90vh;
+    margin: auto;
 
   }
 
@@ -735,11 +867,9 @@ footer:after {
 
   }
 
-  .btn {
+  footer {
 
-    padding: 5px 10px;
-    font-size: 15px;
-    width: 70px;
+    font-size: 8px;
 
   }
 
