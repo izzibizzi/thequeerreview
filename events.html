@@ -1,75 +1,108 @@
 <!DOCTYPE html>
 
-  <html>
+<html>
+  <head>
+    <title>The Queer Review</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
+    <link rel="stylesheet" type="text/css" href="colors.css">
+    <link rel="stylesheet" type="text/css" href="events.css">
+    <!-- <script src="events.js"></script> -->
 
-    <head>
-      <title>The Queer Review</title>
-      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-      <link rel="stylesheet" type="text/css" href="styles.css">
-      <link rel="stylesheet" type="text/css" href="colors.css">
+  </head>
 
-    </head>
+  <header>
+      <ul class="toplinks">
+        <li id="facebook">
+          <a href="https://www.facebook.com/queerreviewmag/" target="_blank">
+            <img src="https://i.imgur.com/JVCktwj.png" alt="Facebook" width="20px" height="20px"</li>
+          </a>
+        <li id="twitter">
+          <a href="https://twitter.com/queerreviewmag" target="_blank">
+            <img src="https://i.imgur.com/9TOjhNi.png" alt="Twitter" width="20px" height="20px"</li>
+          </a>
+        <li id="instagram">
+          <a href="https://www.instagram.com/queerreviewmag/?hl=en" target="_blank">
+            <img src="https://i.imgur.com/XtH4WJF.png" alt="Instagram" width="20px" height="20px"</li>
+          </a>
+      </ul>
 
+  </header>
 
+  <body>
+    <section>
+      <img id="header" src="https://i.imgur.com/f9mgy2l.png" alt="header">
+      <img id="headersmall" src="https://i.imgur.com/ZJs7Ryk.png" alt="header small">
+    </section>
+    <br>
+    <p id="subtitle">reviews &#8226; opinion &#8226; creative writing</p>
 
+    <nav>
 
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="events.html">Events</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
 
-    <header>
-
-        <ul class="toplinks">
-          <li id="facebook">
-            <a href="https://www.facebook.com/queerreviewmag/" target="_blank">
-              <img src="https://i.imgur.com/JVCktwj.png" alt="Facebook" width="20px" height="20px"</li>
-            </a>
-          <li id="twitter">
-            <a href="https://twitter.com/queerreviewmag" target="_blank">
-              <img src="https://i.imgur.com/9TOjhNi.png" alt="Twitter" width="20px" height="20px"</li>
-            </a>
-          <li id="instagram">
-            <a href="https://www.instagram.com/queerreviewmag/?hl=en" target="_blank">
-              <img src="https://i.imgur.com/XtH4WJF.png" alt="Instagram" width="20px" height="20px"</li>
-            </a>
-        </ul>
-
-    </header>
-
-
-
-
-
-    <body>
-
-      <section>
-            <img id="header" src="https://i.imgur.com/f9mgy2l.png" alt="header">
-      </section>
-
-<br>
-      <p id="subtitle">reviews &#8226; opinion &#8226; creative writing</p>
-
-
-
-
+    </nav>
 
 
-<nav>
+    <div class="row">
+      <div class="background">
+        <div class="column">
+          <div class="infobox">
+            <div class="description">
+                <div class="events"><p>UPCOMING EVENTS</p><br>
+                  The Queer Review does not have any upcoming events, but be sure to check our <a href="https://www.facebook.com/pg/queerreviewmag/events/?ref=page_internal" target
+                  ="_blank">Facebook</a> page for updates!
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
-  <ul>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="about.html">About</a></li>
-    <li><a href="events.html">Events</a></li>
-    <li><a href="contact.html">Contact</a></li>
-  </ul>
+    <div class="countdown">
+      <div class="issue"><p>THE QUEER REVIEW NEXT ISSUE</p></div>
+      <div class="info">
+        THE NEXT ISSUE IS RELEASED IN
+      </div>
 
-</nav>
+      <script>
+      // Set the date we're counting down to
+      var countDownDate = new Date("May 1, 2019 00:00:00").getTime();
 
+      // Update the count down every 1 second
+      var x = setInterval(function() {
 
+        // Get todays date and time
+        var now = new Date().getTime();
 
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
 
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
+        // Output the result in an element with id="demo"
+        document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+        + minutes + "m " + seconds + "s ";
 
+        // If the count down is over, write some text
+        if (distance < 0) {
+          clearInterval(x);
+          document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+      }, 1000);
+      </script>
 
-
+    </div>
 
 
 
@@ -79,19 +112,18 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 <script src="javascript.js"></script>
 
-    </body>
+  </body>
 
 
 
+  <footer>
+    <div class="footercolumn">
+      <p>Copyright 2019 Yaiza Canopoli, Sophie Ross, Amelia Mazlan, Julia Sture Nino. Background artwork by Chloë Murrell.</p>
+      <p>Contact us at <a href="mailto:queerreviewmag@gmail.com">queerreviewmag@gmail.com</a> </p>
+    </div>
+    <div class="footercolumn">
+      <img src="https://i.imgur.com/MGENvtY.jpg" alt="logo">
+    </div>
+  </footer>
 
-    <footer>
-      <div class="footercolumn">
-        <p>Copyright 2019 Yaiza Canopoli, Sophie Ross, Amelia, Julia</p>
-        <p>Contact us at <a href="mailto:queerreviewmag@gmail.com">queerreviewmag@gmail.com</a> </p>
-      </div>
-      <div class="footercolumn">
-        <img src="https://i.imgur.com/MGENvtY.jpg" alt="logo">
-      </div>
-    </footer>
-
-  </html>
+</html>
